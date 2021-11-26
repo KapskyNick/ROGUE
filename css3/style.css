@@ -1,0 +1,634 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+	background-color: #091945;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.center{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wrapper .first-container{
+	background-image: url('../images3/Phone.png');
+	background-repeat: no-repeat;
+	background-position:  106% 60px;
+}
+.backg{
+	background-image: url('../images3/Back.png');
+	background-repeat: no-repeat;
+	
+}
+.first-container .block_1 h1{
+	padding-top: 190px;
+	font-weight: bold;
+	font-size: 69px;
+	line-height: 120%;
+	color: #fff;
+	width: 649px;
+	padding-bottom: 30px;
+}
+.first-container .block_1{
+	padding-bottom: 170px;
+}
+.first-container .block_1 .descr{
+	width: 691px;
+	font-size: 20px;
+	line-height: 150%;
+	color: #8A9BCA;
+	padding-bottom: 30px;
+}
+.first-container .block_1 .choise .get-start{
+	text-decoration: none;
+    padding: 13px 32px;
+    border: 1.26881px solid #6C12DE;
+	border-radius: 81.2041px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    color: #fff;
+	background: #6C12DE;
+}
+.first-container .block_1 .choise .get-start:hover{
+	color: #F2994A;
+	background: #fff;
+	border-color: #fff;
+	
+}
+.first-container .block_1 .choise .how{
+	text-decoration: none;
+    padding: 13px 32px;
+    transition: 0.5s;
+    color: #fff;
+	transition: 0.5s;
+}
+.first-container .block_1 .choise .how:hover{
+	color: #F2994A;
+}
+.first-container .block_1 .choise .how img{
+	position: relative;
+	top: 20px;
+	right: 10px;
+}
+.first-container .firms .firms-images{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 130px;
+}
+.works-section .works-title h3{
+	text-align: center;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 130%;
+	color: #fff;
+	padding-bottom: 15px;
+}
+.works-section .works-title .works-descr{
+	text-align: center;
+	font-size: 18px;
+	line-height: 150%;
+	color: #8A9BCA;
+	padding-bottom: 60px;
+}
+.works-section .works-cards{
+	display: flex;
+	justify-content: space-between;
+}
+.works-section .works-cards .card-1 .hum{
+	position: relative;
+	bottom: 60px;
+	right: 75px;
+}
+.works-section .works-cards .card-1 .back{
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-bottom: 30px;
+}
+.works-section .works-cards .card-1{
+	width: 311px;
+	background: linear-gradient(180deg, #3c63ff1c 0%, rgba(203, 40, 139, 0) 100%);
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border-radius: 20px;
+	transition: 0.5s;
+}
+.works-section .works-cards .card-1:hover{
+	box-shadow: 0 0 10px rgba(233, 232, 235, 0.925);
+	background-color: rgba(57, 41, 116, 0.219);
+	/*background: linear-gradient(180deg, #3c63ff80 0%, rgba(203, 40, 139, 0) 100%);*/
+	
+}
+.works-section .works-cards .vec{
+	align-self: center;
+	margin: 20px;
+}
+.works-section .works-cards .card-1 h4{
+	text-align: center;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 150%;
+	color: #fff;
+	padding-bottom: 20px;
+}
+.works-section .works-cards .card-1 .cards-descr{
+	text-align: center;
+	font-size: 14px;
+	line-height: 160%;
+	color: #8A9BCA;
+	padding-bottom: 50px;
+	
+}
+/* ---------------------------------------------- */
+
+.card-block .card{
+    max-width: 320px;
+    width: 100%;
+    background-color: #3b4a6441;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.card-block .card:hover{
+    background-color: royalblue;
+	
+}
+.card-block{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	column-gap: 20px;
+	margin-top: 70px;
+	
+}
+.center-1{
+	width: 100%;
+	max-width: 1350px;
+	margin: 0 auto;
+}
+.card-block .card .descr{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 125%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card-block .card{
+	width: 100%;
+	max-width: 100%;
+}
+.card-block .card .sub-descr{
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.card-block .card .sum-descr{
+	font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+	color: green;
+}
+.card-block .card .sum-descrr{
+	font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+	color: red;
+}
+.card-block .card .image{
+    text-align: center;
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+.card-block .card .market{
+    font-size: 25px;
+    line-height: 125%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card-block .card .valute{
+	font-size: 25px;
+    line-height: 125%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card-block .card .trade{
+	font-size: 25px;
+    line-height: 125%;
+    color: green;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card-block .card .trades{
+	font-size: 25px;
+    line-height: 125%;
+    color: red;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.platform{
+	display: flex;
+	justify-content: space-between;
+}
+.platform .platform-block{
+	width: 514px;
+	margin-top: 130px;
+	align-self: center;
+}
+.platform .platform-block .logo-platform{
+	font-size: 18px;
+	line-height: 150%;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #fff;
+}
+.platform .platform-block h3{
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 130%;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.platform .platform-block .platform-descr{
+	font-size: 20px;
+	line-height: 150%;
+	color: #8A9BCA;
+}
+.platform .info-platform{
+	margin-top: 130px;
+	display: flex;
+	justify-content: space-between;
+}
+.platform .info-platform .info-blocks .info-blocks-1{
+	width: 261px;
+	background-color: #13224F;
+	border-radius: 10px;
+	border: solid 2px #192b5f;
+	margin-bottom: 26px;
+}
+.platform .info-platform .info-blocks .info-blocks-1 img{
+	padding: 42px 0px 40px 25px;
+}
+.platform .info-platform .info-blocks .info-blocks-1 .descrimg{
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 150%;
+	color: #fff;
+	padding: 0px 0px 15px 25px;
+}
+.platform .info-platform .info-blocks .info-blocks-1 .descr-info{
+	font-size: 14px;
+	line-height: 160%;
+	color: #8A9BCA;
+	padding: 0px 0px 38px 25px;
+}
+.platform .info-platform .info-block-3{
+	align-self: center;
+	width: 261px;
+	margin-left: 30px;
+	background-color: #13224F;
+	border-radius: 10px;
+	border: solid 2px #192b5f;
+}
+.platform .info-platform .info-block-3 img{
+	padding: 42px 0px 40px 25px;
+}
+.platform .info-platform .info-block-3 .descrimg{
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 150%;
+	color: #fff;
+	padding: 0px 0px 15px 25px;
+}
+.platform .info-platform .info-block-3 .descr-info{
+	font-size: 14px;
+	line-height: 160%;
+	color: #8A9BCA;
+	padding: 0px 0px 38px 25px;
+}
+.tradcryptocurrency{
+	margin-top: 130px;
+	background-color: #13224F;
+}
+.tradcryptocurrency h2{
+	padding-top: 96px;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 130%;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.tradcryptocurrency p{
+	font-size: 20px;
+	line-height: 150%;
+	color: #8A9BCA;
+	margin-bottom: 43px;
+}
+.tradcryptocurrency .trade{
+	max-width: 827px;
+	width: 100%;
+	text-align: center;
+}
+.tradcryptocurrency a{
+	text-decoration: none;
+    padding: 13px 32px;
+    border: 1.26881px solid #6C12DE;
+	border-radius: 81.2041px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    color: #fff;
+	background: #6C12DE;
+	margin-bottom: 30px;
+}
+.tradcryptocurrency a:hover{
+	color: #F2994A;
+	background: #fff;
+	border-color: #fff;
+}
+.tradcryptocurrency .trade .trade-button{
+	padding-bottom: 95px;
+}
+.trade-description .trade-img .mac{
+	width: 65%;
+	margin-top: 80px;
+}
+.trade-description .trade-img{
+	width: 902px;
+}
+.trade-description{
+	display: flex;
+	
+}
+.trade-description .trade-img .phone{
+	position: relative;
+	/*
+	right: 350px;*/
+	width: 30%;
+	/*top: 110px;*/
+	right: 30%;
+	top: 23%;
+}
+.trade-description .trade-logo{
+	align-self: center;
+	width: 360px;
+	margin-right: 50px;
+	margin-top: 80px;
+}
+.trade-description .trade-logo h2{
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 130%;
+	color: #fff;
+	padding-bottom: 15px;	
+}
+.trade-description .trade-logo p{
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	color: #8A9BCA;
+}
+.trade-description .trade-logo .trade-firms img{
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+
+
+@media screen and (max-width: 1400px){
+	.center-1{
+		padding-left: 20px;
+		padding-right: 20px;
+		width: calc(100% - 40px);
+	}
+}
+@media screen and (max-width: 1300px){
+	
+	.first-container .block_1 h1{
+		padding-top: 90px;
+		width: 60%;
+	}
+	.wrapper .first-container{
+		background-position-y: 100px;
+	}
+	.first-container .block_1 .descr{
+		width: 60%;
+	}
+	.works-section .works-cards{
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.works-section .works-cards .card-1{
+		margin: 20px;
+	}
+	.works-section .works-cards .vec{
+		display: none;
+	}
+	.platform .platform-block{
+		width: 35%;
+		margin-right: 20px;
+	}
+	.tradcryptocurrency .trade{
+		width: 90%;
+	}
+	.trade-description .trade-logo{
+		width: 65%;
+	}
+	
+
+}
+@media screen and (max-width: 1000px){
+	.first-container .block_1 h1{
+		font-size: 34px;
+        line-height: 40px;
+	}
+	.first-container .block_1 .descr{
+		font-size: 15px;
+	}
+	.platform{
+		flex-wrap: wrap;
+	}
+	.platform .platform-block{
+		display: inline-block;
+		width: 100%;
+		margin-right: 0;
+	}
+	.platform .platform-block h3{
+		font-size: 30px;
+	}
+	.platform .platform-block .platform-descr{
+		font-size: 16px;
+	}
+	.trade-description{
+		flex-wrap: wrap;
+	}
+	
+	.trade-description .trade-img .mac{
+		display: inline-block;
+		position: relative;
+		left: 17%;
+	}
+	.trade-description .trade-img .phone {
+		right: 13%;
+	}
+
+	
+	.trade-description .trade-logo{
+		text-align: center;
+		margin-left: 17%;
+	}
+	.trade-description .trade-logo .trade-firms{
+		padding-left: 8%;
+	}
+	
+
+}
+@media screen and (max-width: 897px){
+	.first-container .firms .firms-images{
+		flex-wrap: wrap;
+		margin: 5px;
+		justify-content: space-evenly;
+	}
+	.first-container .firms .firms-images div{
+		margin: 5px;
+	}
+}
+
+@media screen and (max-width: 760px){
+	.wrapper .first-container{
+		background-position-y: 150px;
+	}
+}
+@media screen and (max-width: 660px){
+	.platform .info-platform{
+		flex-wrap: wrap;
+		margin-top: 50px;
+	}
+	.platform .info-platform .info-blocks .info-blocks-1{
+		display: inline-block;
+		width: 99%;
+		text-align: center;
+	}
+	.platform .info-platform .info-blocks .info-blocks-1 img{
+		padding-left: 0;
+	}
+	.platform .info-platform .info-block-3{
+		margin-left: 0;
+		width: 100%;
+		display: inline-block;
+	}
+	.platform .info-platform .info-blocks .info-blocks-1 .descrimg{
+		padding-left: 0;
+	}
+	.platform .info-platform .info-blocks .info-blocks-1 .descr-info{
+		padding-left: 0;
+	}
+	.platform .info-platform .info-block-3{
+		text-align: center;
+	}
+	.platform .info-platform .info-block-3 img{
+		padding-left: 0;
+	}
+	.platform .info-platform .info-block-3 .descrimg{
+		padding-left: 0;
+	}
+	.platform .info-platform .info-block-3 .descr-info{
+		padding-left: 0;
+	}
+	.tradcryptocurrency p{
+		font-size: 14px;
+	}
+	.tradcryptocurrency h2{
+		font-size: 30px;
+		padding-top: 50px;
+	}
+	.tradcryptocurrency .trade .trade-button{
+		padding-bottom: 50px;
+	}
+	.trade-description .trade-logo h2{
+		font-size: 30px;
+	}
+	.trade-description .trade-logo p{
+		font-size: 14px;
+	}
+	.trade-description .trade-logo{
+		margin-right: 0px;
+		width: 100%;
+		margin-left: 0px;
+	}
+}
+@media screen and (max-width: 426px){
+	.first-container .block_1 .choise .get-start{
+		width: 100%;
+        display: inline-block;
+        padding: 14px 0;
+        text-align: center;
+	}
+	.first-container .block_1 .choise .how{
+		width: 100%;
+        display: inline-block;
+        padding: 14px 0;
+        text-align: center;
+	}
+	.works-section .works-cards .card-1 .back{
+		padding-left: 30%;
+	}
+	.works-section .works-cards .card-1 .cards-descr{
+		font-size: 12px;
+	}
+	.platform .info-platform .info-blocks .info-blocks-1 .descr-info{
+		font-size: 12px;
+	}
+	.platform .info-platform .info-block-3 .descr-info{
+		font-size: 12px;
+	}
+	.tradcryptocurrency a{
+		width: 100%;
+        display: inline-block;
+        padding: 14px 0;
+        text-align: center;
+	}
+	.tradcryptocurrency .trade .trade-button{
+		padding-bottom: 0px;
+	}
+}

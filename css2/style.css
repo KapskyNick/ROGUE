@@ -380,6 +380,8 @@ footer .footer-container{
     display: flex;
     justify-content: space-between;
     margin-top: 77px;
+    padding-bottom: 30px;
+
 }
 footer .footer-container .block-one{
     margin-top: 77px;
